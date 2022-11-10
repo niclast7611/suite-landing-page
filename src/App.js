@@ -4,20 +4,13 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p className="bg-blue-500">
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      Request Beta Access A super solution for your business. Our marketing and
+      sales automations help you scale your outreach to get more leads for your
+      company. Request Beta Access 2K+ Companies 8 Languages 1.2M Leads It just
+      works. “I really like how it is an all-in-one solution that handle many of
+      the tasks that you would normally need separate tools to do the same job.
+      This thing is a miracle worker.” Jeremy Robinson CMO, Fylo Copyright -
+      Suite
     </div>
   );
 }
