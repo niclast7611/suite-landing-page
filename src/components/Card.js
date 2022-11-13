@@ -10,7 +10,7 @@ export default function Card() {
           alt="Jeremy Robinson"
         />
       </div>
-      <div className="flex flex-col text-center bg-[#172339] text-white justify-end h-[748px] space-y-9 pb-20 ">
+      <div className="flex flex-col text-center bg-[#172339] text-white justify-end h-[748px] space-y-9 pb-20 rounded-2xl">
         <div className="flex justify-center">
           <img
             src={`${assetsPath}pattern-curved-line-2.svg`}
