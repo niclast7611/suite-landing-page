@@ -4,10 +4,15 @@ const assetsPath = process.env.PUBLIC_URL + "/assets/";
 export default function Card() {
   return (
     <div className="relative">
-      <div className="absolute -top-44 left-20">
+      <div className="absolute -top-44 left-80">
         <img
           src={`${assetsPath}image-jeremy-small.png`}
           alt="Jeremy Robinson"
+        />
+        <img
+          src={`${assetsPath}pattern-blur.svg`}
+          alt="Purple Blur"
+          className="hidden md:block md:absolute md:z-0 "
         />
       </div>
       <div className="flex flex-col text-center bg-[#172339] text-white justify-end h-[748px] space-y-10 pb-20 rounded-2xl">

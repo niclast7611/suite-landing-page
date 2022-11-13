@@ -6,7 +6,7 @@ import NavBar from "./components/NavBar";
 
 function App() {
   return (
-    <div className="flex flex-col h-fit">
+    <div className="flex flex-col min-h-full">
       <NavBar />
       <HeroImageAndIntro />
 
