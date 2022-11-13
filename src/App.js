@@ -2,18 +2,16 @@ import "./App.css";
 import Card from "./components/Card";
 import Footer from "./components/Footer";
 import NavBar from "./components/NavBar";
+import Stats from "./components/Stats";
 
 function App() {
   return (
-    <div className="flex flex-col min-h-screen">
+    <div className="flex flex-col h-full">
       <NavBar />
       {/* Request Beta Access A super solution for your business. Our marketing and
       sales automations help you scale your outreach to get more leads for your
-      company. Request Beta Access 2K+ Companies 8 Languages 1.2M Leads It just
-      works. “I really like how it is an all-in-one solution that handle many of
-      the tasks that you would normally need separate tools to do the same job.
-      This thing is a miracle worker.” Jeremy Robinson CMO, Fylo Copyright -
-      Suite */}
+      company. Request Beta Access 2K+ Companies 8 Languages 1.2M Leads */}
+      <Stats />
       <Card />
       <Footer />
     </div>
