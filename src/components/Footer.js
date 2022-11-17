@@ -7,9 +7,21 @@ export default function Footer() {
       <div className="text-3xl font-bold">suite</div>
       <div className="text-sm">Copyright - Suite</div>
       <div className="flex flex-row justify-center space-x-6">
-        <img src={`${assetsPath}icon-facebook.svg`} alt="Facebook Logo" />
-        <img src={`${assetsPath}icon-twitter.svg`} alt="Twitter Logo" />
-        <img src={`${assetsPath}icon-instagram.svg`} alt="Instagram Logo" />
+        <img
+          className="hover:opacity-60 hover:cursor-pointer"
+          src={`${assetsPath}icon-facebook.svg`}
+          alt="Facebook Logo"
+        />
+        <img
+          src={`${assetsPath}icon-twitter.svg`}
+          className="hover:opacity-60 hover:cursor-pointer"
+          alt="Twitter Logo"
+        />
+        <img
+          src={`${assetsPath}icon-instagram.svg`}
+          className="hover:opacity-60 hover:cursor-pointer"
+          alt="Instagram Logo"
+        />
       </div>
     </div>
   );

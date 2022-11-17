@@ -9,7 +9,7 @@ export default function HeroImageAndIntro() {
         <div className="space-y-9 md:absolute md:z-50 md:mt-20">
           <div className="text-4xl md:text-[56px] md:leading-none md:w-4/6">
             <img
-              className="pb-2 ml-36 w-36 md:w-48 md:ml-48 md:pb-4"
+              className="pb-2 ml-36 w-36 md:w-48 md:ml-60 md:pb-4"
               src={`${assetsPath}pattern-curved-line-1.svg`}
               alt="Black Curved Line"
             />
