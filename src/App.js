@@ -9,7 +9,6 @@ function App() {
     <div className="flex flex-col min-h-full">
       <NavBar />
       <HeroImageAndIntro />
-
       <Card />
       <Footer />
     </div>

@@ -3,7 +3,7 @@ const assetsPath = process.env.PUBLIC_URL + "/assets/";
 
 export default function Card() {
   return (
-    <div className="relative mx-auto md:w-11/12 lg:w-9/12">
+    <div className="relative mx-auto mb-20 md:w-11/12 lg:w-9/12">
       <div className="absolute z-50 -top-44 left-20 md:left-64 lg:-top-12 lg:left-24 ">
         <img
           className="block lg:hidden"
@@ -20,20 +20,20 @@ export default function Card() {
         <img src={`${assetsPath}pattern-blur.svg`} alt="Purple Blur" />
       </div>
       <div className="flex flex-col text-center bg-[#172339] text-white justify-end h-[748px] md:h-[684px] space-y-10 pb-20 rounded-2xl lg:h-[542px]">
-        <div className="absolute hidden lg:block top-1/3 left-[500px]">
+        <div className="absolute hidden lg:block lg:top-1/3 lg:left-[500px]">
           <img
             src={`${assetsPath}pattern-curved-line-2.svg`}
             alt="Curved Line"
           />
         </div>
-        <div className="space-y-10 lg:w-4/12 lg:ml-auto lg:my-auto lg:text-left lg:mr-20 lg:space-y-16">
-          <div className="block lg:hidden">
-            <img
-              src={`${assetsPath}pattern-curved-line-2.svg`}
-              alt="Curved Line"
-            />
-          </div>
+        <div className="w-full space-y-10 lg:w-4/12 lg:ml-auto lg:my-auto lg:text-left lg:mr-20 lg:space-y-16">
           <div className="text-4xl lg:text-5xl">
+            <div className="md:mb-10 md:ml-[340px] lg:hidden ml-40 mb-10">
+              <img
+                src={`${assetsPath}pattern-curved-line-2.svg`}
+                alt="Curved Line"
+              />
+            </div>
             It just <span className="font-bold">works.</span>
           </div>
           <div className="px-8 text-lg lg:px-0 lg:w-11/12">
