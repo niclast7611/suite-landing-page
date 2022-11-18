@@ -20,8 +20,14 @@ export default function Card() {
         <img src={`${assetsPath}pattern-blur.svg`} alt="Purple Blur" />
       </div>
       <div className="flex flex-col text-center bg-[#172339] text-white justify-end h-[748px] md:h-[684px] space-y-10 pb-20 rounded-2xl lg:h-[542px]">
-        <div className="space-y-10 lg:w-4/12 lg:ml-auto lg:my-auto lg:text-left lg:mr-20">
-          <div className="">
+        <div className="absolute hidden lg:block top-1/3 left-[500px]">
+          <img
+            src={`${assetsPath}pattern-curved-line-2.svg`}
+            alt="Curved Line"
+          />
+        </div>
+        <div className="space-y-10 lg:w-4/12 lg:ml-auto lg:my-auto lg:text-left lg:mr-20 lg:space-y-16">
+          <div className="block lg:hidden">
             <img
               src={`${assetsPath}pattern-curved-line-2.svg`}
               alt="Curved Line"
@@ -30,7 +36,7 @@ export default function Card() {
           <div className="text-4xl lg:text-5xl">
             It just <span className="font-bold">works.</span>
           </div>
-          <div className="px-8 text-lg lg:px-0">
+          <div className="px-8 text-lg lg:px-0 lg:w-11/12">
             “I really like how it is an all-in-one solution that handle many of
             the tasks that you would normally need separate tools to do the same
             job. This thing is a miracle worker.”

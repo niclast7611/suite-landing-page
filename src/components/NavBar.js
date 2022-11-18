@@ -2,7 +2,7 @@ import React from "react";
 
 export default function NavBar() {
   return (
-    <div className="flex flex-row justify-between px-3 py-5 md:w-10/12 md:px-0 md:mx-auto ">
+    <div className="flex flex-row justify-between px-3 py-5 md:w-10/12 md:px-0 md:mx-auto lg:flex-around">
       <div className="text-[32px] font-bold">suite</div>
       <div>
         <button

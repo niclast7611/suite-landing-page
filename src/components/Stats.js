@@ -17,7 +17,7 @@ export default function Stats() {
   ];
 
   return (
-    <div className="flex flex-col mb-56 text-center space-y-7 md:space-y-0 md:flex-row md:justify-evenly md:mb-60">
+    <div className="flex flex-col mb-56 text-center space-y-7 md:space-y-0 md:flex-row md:justify-evenly md:mb-60 lg:flex-col lg:mb-0 lg:text-left">
       {statsObject.map((value) => {
         return (
           <div className="space-y-2">
